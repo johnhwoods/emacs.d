@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       a5b0ad80-4eb4-4f56-91be-e59cfbf9a02a
+:END:
+#+title: Another_Test
+[[id:b9d1d23b-07f8-40fd-8053-6a6c7bdbd206][TestNote]] is another thing that i did.
+

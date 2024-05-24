@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       b9d1d23b-07f8-40fd-8053-6a6c7bdbd206
+:END:
+#+title: TestNote
+* just some things i found today
+woorking on emacs stuff
+
