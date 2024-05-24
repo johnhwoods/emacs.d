@@ -1,0 +1,103 @@
+;; -*- mode: emacs-lisp; lexical-binding:t; coding: utf-8-emacs; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Fri May 24 10:12:03 2024
+;; Desktop file format version 208
+;; Emacs version 29.3
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (26192 23011 565232 134000) (desktop . "208") "john@t14" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font . "-GOOG-Noto Sans Mono-regular-normal-normal-*-15-*-*-*-*-0-iso10646-1") (border-width . 0) (internal-border-width . 0) (child-frame-border-width) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#e1e1e0") (background-color . "#2d3743") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tab-bar-lines . 0) (tool-bar-lines . 1) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (alpha-background) (no-focus-on-map) (no-accept-focus) (fullscreen . maximized) (visibility . t) (use-frame-synchronization) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#415160") (font-parameter) (sticky) (shaded) (environment) (last-focus-update . t) (dnd-root-window-position) (frameset--id . "A43C-B3D7-F2DE-1585") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (height . 44) (width . 195) (left . 128) (top . 0)) ((min-height . 8) (min-width . 20) (min-height-ignore . 4) (min-width-ignore . 12) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 176) (min-pixel-width . 180) (min-pixel-height-ignore . 88) (min-pixel-width-ignore . 108) (min-pixel-height-safe . 44) (min-pixel-width-safe . 36)) vc (pixel-width . 1787) (pixel-height . 952) (total-width . 199) (total-height . 43) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (hc (pixel-width . 1787) (pixel-height . 776) (total-width . 199) (total-height . 35) (normal-height . 0.8235294117647058) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 896) (pixel-height . 776) (total-width . 100) (total-height . 35) (normal-height . 1.0) (normal-width . 0.5) (buffer ".emacs" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 2 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 676) (start . 1)) (prev-buffers ("*Customize Option: Repeat Mode*" 1 569) ("*Help*" 1 341) ("*scratch*" 1 19) ("*Customize Option: Read Quoted Char Radix*" 1 408) ("emacs.pdf" 1 1) ("*eww*" 3672 3961) ("*Buffer List*" 1 108) ("*eww-source*" 1 2006))) (leaf (last . t) (pixel-width . 891) (pixel-height . 776) (total-width . 99) (total-height . 35) (normal-height . 1.0) (normal-width . 0.5) (buffer "*Apropos*" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 2 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 23102) (start . 22520)))) (leaf (last . t) (pixel-width . 1787) (pixel-height . 176) (total-width . 199) (total-height . 8) (normal-height . 0.1764705882352941) (normal-width . 1.0) (buffer "*Completions*" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 2 t nil 0 t nil) (vscroll . 0) (dedicated . soft) (point . 1) (start . 1)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '(#("url" 0 3 (isearch-case-fold-search t isearch-regexp-function #[513 "\300\301\302\300\303\304\300\305\306\307!###\207" [replace-regexp-in-string "\"" "[\"“”]" "'" "['’]" "`" "[`‘]" regexp-quote] 13 "\n\n(fn STRING &optional LAX)"])) #("oint" 0 4 (isearch-case-fold-search t isearch-regexp-function nil)) #("x" 0 1 (isearch-case-fold-search t isearch-regexp-function nil)) #("239" 0 3 (isearch-case-fold-search t isearch-regexp-function nil))))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/.emacs" "~/Documents/emacs.pdf" "/ssh:pharo@192.168.56.32:" "~/ssh:pharo@192.168.56.32:" "~/test.node" "~/test.png" "~/test.py" "~/test.txt"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/john/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(font-lock-mode eldoc-mode)
+  676
+  '(2618 nil)
+  nil
+  nil
+  '((buffer-display-time 26192 22275 436270 616000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/john/Documents/emacs.pdf"
+  "emacs.pdf"
+  'doc-view-mode
+  '(font-lock-mode)
+  1
+  '(1 nil)
+  t
+  '((page . 46) (slice))
+  '((buffer-display-time 26192 19854 450733 846000) (buffer-file-coding-system . no-conversion))
+  '((mark-ring (3181782 3181782 1))))
+
+(desktop-create-buffer 208
+  nil
+  "*eww*"
+  'eww-mode
+  '(font-lock-mode)
+  3961
+  '(1 nil)
+  t
+  '(:history ((:url "https://www.bbc.co.uk/sport/athletics/articles/cw449rw8800o" :title "World Para Athletics Championships: Dan Pembroke retains javelin title - BBC Sport") (:point 9778 :url "https://www.bbc.co.uk/sport" :title "BBC Sport - Scores, Fixtures, News - Live Sport") (:point 151 :title "UK | Latest News & Updates | BBC News" :url "https://www.bbc.co.uk/news/uk") (:title "Matthew Trickett: Man charged with spying for Hong Kong has died - BBC News" :url "https://www.bbc.co.uk/news/articles/c1vv5wlp3q5o" :point 291) (:title "BBC - Home" :url "https://www.bbc.co.uk/" :point 2572)))
+  '((buffer-display-time 26191 51623 24895 924000) (buffer-file-coding-system . no-conversion) (truncate-lines . t) (eww-history-position . 0))
+  '((mark-ring (1 1 1 1 1 1 1 1 1 1 1 1 1))))
+
+(desktop-create-buffer 208
+  "/home/john/test.png"
+  "test.png"
+  'image-mode
+  '(font-lock-mode)
+  908
+  '(908 nil)
+  nil
+  nil
+  '((buffer-display-time 26191 51028 545065 646000) (buffer-file-coding-system . no-conversion) (truncate-lines . t))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/john/test.py"
+  "test.py"
+  'python-mode
+  '(eldoc-mode font-lock-mode)
+  1426
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 26191 31003 654149 12000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/john/test.node"
+  "test.node"
+  'fundamental-mode
+  '(font-lock-mode)
+  88
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 26191 29992 414494 858000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/john/test.txt"
+  "test.txt"
+  'text-mode
+  '(font-lock-mode)
+  206
+  '(206 nil)
+  nil
+  nil
+  '((buffer-display-time 26191 29617 15598 468000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
