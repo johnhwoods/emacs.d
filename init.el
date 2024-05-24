@@ -6,12 +6,18 @@
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
  '(calendar-week-start-day 1)
+ '(column-number-mode nil)
  '(cua-mode t nil (cua-base))
  '(custom-enabled-themes '(misterioso))
+ '(find-file-visit-truename t)
  '(font-use-system-font t)
  '(ispell-dictionary nil)
+ '(org-fold-catch-invisible-edits 'smart)
+ '(org-roam-directory "/home/john/.config/emacs/org-roam")
+ '(org-startup-indented t)
+ '(org-startup-numerated t)
  '(package-selected-packages
-   '(org-roam gnu-elpa-keyring-update smalltalk-mode markdown-mode use-package))
+   '(org org-roam-ui org-roam gnu-elpa-keyring-update smalltalk-mode markdown-mode use-package))
  '(read-quoted-char-radix 16)
  '(repeat-mode t)
  '(save-place-mode t))
@@ -47,6 +53,10 @@
   :mode (("README\\.md\\'" . gfm-mode))
   :init (setq markdown-command "/usr/local/bin/multimarkdown"))
 
+
+
+
+
 (copy-face font-lock-constant-face 'calendar-iso-week-face)
 (set-face-attribute 'calendar-iso-week-face nil
                     :height 0.7)
@@ -59,7 +69,7 @@
         'font-lock-face 'calendar-iso-week-face))
 
 (desktop-save-mode 1)
-(setq desktop-dirname "~/.emacs.d/desktop/")
+(setq desktop-dirname "~/.config/emacs/desktop/")
 (setq desktop-path (list desktop-dirname))
 (setq desktop-save t)
 (setq desktop-auto-save-timeout 30)  ;; Save desktop every 30 seconds
