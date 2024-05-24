@@ -1,0 +1,14 @@
+:PROPERTIES:
+:ID:       d27d9ac6-8287-426f-be79-696b0ef68eb6
+:END:
+#+title: GitIgnoreIssue
+So a little wrinkle with .gitignore
+
+*
+!org-roam/
+
+doesn't work.  you need to
+
+*
+org-roam
+!org-roam/**

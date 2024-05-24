@@ -1,8 +1,11 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/john/test.py" . 1426)
+(("/home/john/.config/emacs/init.el" . 2249)
+ ("/home/john/.config/emacs/org-roam/20240524163946-another_test.org" . 137)
+ ("/home/john/.config/emacs/org-roam/20240524183120-gitignoreissue.org" . 92)
+ ("/home/john/.config/emacs/bookmarks" . 251)
+ ("/home/john/test.py" . 1426)
  ("/home/john/test.txt" . 206)
  ("/home/john/test.node" . 89)
- ("/home/john/.config/emacs/init.el" . 2035)
  ("/home/john/psn-account-id.py" . 4023)
  ("/home/john/Desktop/" . 180)
  ("/ssh:pharo@192.168.56.32:/home/pharo/"
